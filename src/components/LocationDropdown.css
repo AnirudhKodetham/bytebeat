@@ -1,0 +1,20 @@
+.location-dropdown {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #2575fc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .location-icon {
+    margin-right: 5px;
+  }
+  
+  .location-dropdown select {
+    border: none;
+    background: none;
+    color: #2575fc;
+    cursor: pointer;
+  }
+  

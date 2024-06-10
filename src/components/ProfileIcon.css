@@ -1,0 +1,11 @@
+.profile-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #2575fc;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

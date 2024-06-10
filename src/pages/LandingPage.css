@@ -1,0 +1,55 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .navbar-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .bytebeat-title {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tiles-container .tile {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .tiles-container .tile:hover {
+    transform: scale(1.1);
+  }
+  
